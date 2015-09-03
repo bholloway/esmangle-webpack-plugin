@@ -1,0 +1,34 @@
+{
+  "name": "esmangle-webpack-plugin",
+  "version": "0.0.1",
+  "description": "A minifier for Webpack based on ESMangle",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bholloway/esmangle-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "minimize",
+    "minify",
+    "uglify",
+    "esmangle",
+    "escodegen"
+  ],
+  "author": "bholloway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bholloway/esmangle-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/bholloway/esmangle-webpack-plugin",
+  "dependencies": {
+    "escodegen": "^1.6.1",
+    "esmangle": "^1.0.1",
+    "esprima": "^2.6.0",
+    "lodash.defaults": "^3.1.2",
+    "sourcemap-to-ast": "~0.0.2",
+    "webpack": "^1.12.0",
+    "webpack-core": "^0.6.6"
+  }
+}
